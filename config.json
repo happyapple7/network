@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Karolin"
+  },
+  "text": {
+    "more": "industry 1 \u003d purple \\newline\nindustry 2 \u003d light green\nindustry 3 \u003d blue\nindustry 4 \u003d dark green\nindustry 5 \u003d orange",
+    "intro": "A short description could be written here.",
+    "title": "Firms in 2011"
+  },
+  "legend": {
+    "edgeLabel": "Connections",
+    "colorLabel": "Industries",
+    "nodeLabel": "Firms"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "indusry",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Id"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
